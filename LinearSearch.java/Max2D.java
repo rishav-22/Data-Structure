@@ -13,7 +13,7 @@ public class Max2D{
     
     // Function for getting maximum of an Arrays
     static int MAX(int [][] arr){
-       int max=0;
+       int max=Integer.MIN_VALUE;
         for(int i=0;i<arr.length;i++){
             // for(int j=0;j<arr[i].length;j++){
             //     if (arr[i][j] > max){
