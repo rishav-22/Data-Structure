@@ -1,4 +1,5 @@
 import java.lang.annotation.Target;
+import java.util.Arrays;
 
 public class SearchIn2DArray {
     public static void main(String[] args) {
@@ -8,19 +9,24 @@ public class SearchIn2DArray {
             {78,99,34,56},
             {18,12}
         };
-        int target=99;
-        System.out.println(search(arr,target));
+        int target=34;
+        int [] ans= search(arr, target);
+        System.out.println(Arrays.toString(ans));
     }
     
     //  Searching in 2D arrays
-    static boolean search(int [][] arr, int target){
+    static int[] search(int [][] arr, int target){
+        int[] ans= new  int [2];
         for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr[i].length;j++){
                 if (arr[i][j] == target){
-                    return true;
+                    ans[0]=i; ans[1]=j;
+                    return new int [] {i,j};
                 }
             }
+
         }
-        return false;
+        return new int [] {-1,-1};
+
     }
 }
