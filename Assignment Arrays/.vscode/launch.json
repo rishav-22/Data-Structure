@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HighestAltitude",
+            "request": "launch",
+            "mainClass": "HighestAltitude",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch TargetArray",
+            "request": "launch",
+            "mainClass": "TargetArray",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch SmallerThanCurrent",
+            "request": "launch",
+            "mainClass": "SmallerThanCurrent",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch NoOfGoodPairs",
+            "request": "launch",
+            "mainClass": "NoOfGoodPairs",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch KidsWithGreatestCandies",
+            "request": "launch",
+            "mainClass": "KidsWithGreatestCandies",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayConcatination",
+            "request": "launch",
+            "mainClass": "ArrayConcatination",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysPermutation",
+            "request": "launch",
+            "mainClass": "ArraysPermutation",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReturningSum",
+            "request": "launch",
+            "mainClass": "ReturningSum",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch RichestCustomerWealth",
+            "request": "launch",
+            "mainClass": "RichestCustomerWealth",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Suffel",
+            "request": "launch",
+            "mainClass": "Suffel",
+            "projectName": "Assignment Arrays_1c70941d"
+        }
+    ]
+}
