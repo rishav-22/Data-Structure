@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC_FlipAnImage",
+            "request": "launch",
+            "mainClass": "LC_FlipAnImage",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
             "name": "Launch HighestAltitude",
             "request": "launch",
             "mainClass": "HighestAltitude",
