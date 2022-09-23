@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class LC_EvenNoDigit {
     public static void main(String[] args) {
         int[] arr={12,345,2,6,7896};
+        System.out.println(findNumber(25468756));
         System.out.println(findNumbers(arr));
     }
     static int findNumbers(int[] nums) {
@@ -21,6 +22,11 @@ public class LC_EvenNoDigit {
         }
         return num;
     }
-  
-
-}
+// Second Method;
+    static int findNumber(int num){
+        if(num<0){
+            num=num*-1;
+        }
+        return (int) (Math.log10(num)+1);  
+        }
+    }
