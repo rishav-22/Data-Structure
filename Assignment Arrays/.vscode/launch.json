@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LC_SpiralMatrix",
+            "request": "launch",
+            "mainClass": "LC_SpiralMatrix",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC_MatrixRotation",
+            "request": "launch",
+            "mainClass": "LC_MatrixRotation",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC_AddToArray",
+            "request": "launch",
+            "mainClass": "LC_AddToArray",
+            "projectName": "Assignment Arrays_1c70941d"
+        },
+        {
+            "type": "java",
             "name": "Launch demo",
             "request": "launch",
             "mainClass": "demo",
